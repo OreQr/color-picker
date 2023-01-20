@@ -1,11 +1,11 @@
 {
   "name": "color-picker",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "main": "dist/src/main.js",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"tsc -w\" \"tsc && electron ./dist/main.js\"",
-    "start": "tsc && electron ./dist/main.js",
+    "dev": "concurrently \"tsc -w\" \"tsc && electron ./dist/src/main.js\"",
+    "start": "tsc && electron ./dist/src/main.js",
     "build": "tsc && electron-builder"
   },
   "build": {
@@ -16,11 +16,14 @@
       ],
       "icon": "icon.ico",
       "files": [
-        "dist/**/*",
         "icon.ico",
-        "index.html"
+        "index.html",
+        "dist/src/**/*"
       ]
-    }
+    },
+    "asarUnpack": [
+      "node_modules/screenshot-desktop/lib/win32"
+    ]
   },
   "dependencies": {
     "@electron/remote": "^2.0.9",

@@ -23,7 +23,7 @@ app.whenReady().then(() => {
     }
   );
 
-  const tray = new Tray(path.join(__dirname, "../icon.ico"));
+  const tray = new Tray(path.join(__dirname, "../../icon.ico"));
 
   const contextMenu = Menu.buildFromTemplate([
     {
@@ -68,7 +68,7 @@ function pick() {
 
     require("@electron/remote/main").enable(newWindow.webContents);
 
-    newWindow.loadFile(path.join(__dirname, "../index.html"));
+    newWindow.loadFile(path.join(__dirname, "../../index.html"));
 
     if (isDev) {
       newWindow.webContents.openDevTools();
