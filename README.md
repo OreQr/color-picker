@@ -10,9 +10,9 @@ This application is perfect for designers, developers and anyone who needs to qu
 
 ## Usage
 
-> To pick color press `Control+Shift+C` (this can be changed in the configuration file) [or](https://storage.oreq.xyz/5x7u1jSKGz.png)
+> To pick color press `Control+Shift+C` (this can be changed in the configuration file) [or](https://i.imgur.com/BuLb6Q0.png)
 
-<img src="https://storage.oreq.xyz/brave_0NFdMwvQ9p.gif" alt="Usage" height="400"/>
+![brave_0NFdMwvQ9p](https://user-images.githubusercontent.com/50458706/227369783-cc4b16eb-2cba-499f-be70-b516ec591f76.gif)
 
 ## Features
 
